@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+<rect width="297" height="210" fill="white"/>
+<defs><marker id="start" markerWidth="3" markerHeight="2" refX="0" refY="1" orient="auto" markerUnits="userSpaceOnUse"><path d="M3,0 L0,1 L3,2 Z" fill="#222"/></marker><marker id="arrow" markerWidth="3" markerHeight="2" refX="3" refY="1" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L3,1 L0,2 Z" fill="#222"/></marker></defs>
+<style>text{font-family:DejaVu Sans,sans-serif;font-size:3.2px;fill:#111} .dim{stroke:#333;stroke-width:.18;fill:none} .edge{stroke:#111;stroke-width:.5;fill:none} .axis{stroke:#267296;stroke-width:.25;stroke-dasharray:6,1.5,1,1.5;fill:none}</style>
+<rect x="8" y="8" width="281" height="194" fill="none" stroke="#333" stroke-width=".25"/>
+<text x="14" y="16" text-anchor="start" style="font-size:5px">ANEMOMETER / base-s</text>
+<text x="14" y="23" text-anchor="start" style="font-size:3.2px">XZ plane • viewed along −Y • positive X half-profile</text>
+<line x1="8" y1="193" x2="289" y2="193" class="dim" />
+<text x="14" y="199" text-anchor="start" style="font-size:3.2px">Source: anemometer.FCStd | Dimensions: mm | Scale 4:1 at A4 landscape</text>
+<text x="280" y="199" text-anchor="end" style="font-size:3.2px">2 / 4</text>
+<line x1="80.0" y1="166.0" x2="118.8" y2="166.0" class="edge" />
+<line x1="124.8" y1="118.0" x2="124.8" y2="42.0" class="edge" />
+<line x1="124.8" y1="42.0" x2="140.8" y2="42.0" class="edge" />
+<line x1="140.8" y1="42.0" x2="140.8" y2="178.0" class="edge" />
+<line x1="118.8" y1="166.0" x2="118.8" y2="118.0" class="edge" />
+<line x1="118.8" y1="118.0" x2="124.8" y2="118.0" class="edge" />
+<line x1="80.0" y1="178.0" x2="140.8" y2="178.0" class="edge" />
+<line x1="80.0" y1="178.0" x2="80.0" y2="166.0" class="edge" />
+<line x1="80" y1="185" x2="80" y2="39" class="axis" />
+<line x1="80" y1="44" x2="80" y2="39" class="dim" marker-end="url(#arrow)"/>
+<text x="77" y="37" text-anchor="end" style="font-size:3.2px">+Z</text>
+<text x="73" y="112.0" text-anchor="middle" style="font-size:3.2px" transform="rotate(-90,73,112.0)">Z — AXIS OF ROTATION</text>
+<line x1="80.0" y1="166.0" x2="80.0" y2="30" class="dim" />
+<line x1="124.8" y1="42.0" x2="124.8" y2="30" class="dim" />
+<line x1="80.0" y1="32" x2="124.8" y2="32" class="dim" marker-start="url(#start)" marker-end="url(#arrow)"/>
+<text x="102.4" y="30.5" text-anchor="middle" style="font-size:3.2px">11.2</text>
+<line x1="124.8" y1="42.0" x2="124.8" y2="30" class="dim" />
+<line x1="140.8" y1="42.0" x2="140.8" y2="30" class="dim" />
+<line x1="124.8" y1="32" x2="140.8" y2="32" class="dim" marker-start="url(#start)" marker-end="url(#arrow)"/>
+<text x="132.8" y="30.5" text-anchor="middle" style="font-size:3.2px">4</text>
+<line x1="80.0" y1="178.0" x2="80.0" y2="190" class="dim" />
+<line x1="140.8" y1="178.0" x2="140.8" y2="190" class="dim" />
+<line x1="80.0" y1="188" x2="140.8" y2="188" class="dim" marker-start="url(#start)" marker-end="url(#arrow)"/>
+<text x="110.4" y="186.5" text-anchor="middle" style="font-size:3.2px">15.2 (REF)</text>
+<line x1="118.8" y1="118.0" x2="118.8" y2="106" class="dim" />
+<line x1="124.8" y1="118.0" x2="124.8" y2="106" class="dim" />
+<line x1="118.8" y1="108" x2="124.8" y2="108" class="dim" marker-start="url(#start)" marker-end="url(#arrow)"/>
+<text x="121.8" y="106.5" text-anchor="middle" style="font-size:3.2px">1.5</text>
+<line x1="140.8" y1="42.0" x2="165" y2="42.0" class="dim" />
+<line x1="140.8" y1="178.0" x2="165" y2="178.0" class="dim" />
+<line x1="163" y1="42.0" x2="163" y2="178.0" class="dim" marker-start="url(#start)" marker-end="url(#arrow)"/>
+<text x="161.5" y="110.0" text-anchor="middle" style="font-size:3.2px" transform="rotate(-90,161.5,110.0)">34</text>
+<line x1="80.0" y1="178.0" x2="57" y2="178.0" class="dim" />
+<line x1="80.0" y1="166.0" x2="57" y2="166.0" class="dim" />
+<line x1="59" y1="178.0" x2="59" y2="166.0" class="dim" marker-start="url(#start)" marker-end="url(#arrow)"/>
+<text x="57.5" y="172.0" text-anchor="middle" style="font-size:3.2px" transform="rotate(-90,57.5,172.0)">3</text>
+<line x1="118.8" y1="166.0" x2="108" y2="166.0" class="dim" />
+<line x1="118.8" y1="118.0" x2="108" y2="118.0" class="dim" />
+<line x1="110" y1="166.0" x2="110" y2="118.0" class="dim" marker-start="url(#start)" marker-end="url(#arrow)"/>
+<text x="108.5" y="142.0" text-anchor="middle" style="font-size:3.2px" transform="rotate(-90,108.5,142.0)">12</text>
+<text x="184" y="145" text-anchor="start" style="font-size:3px">Horizontal dimensions are radial,</text>
+<text x="184" y="151" text-anchor="start" style="font-size:3px">not diameters.</text>
+<text x="184" y="157" text-anchor="start" style="font-size:3px">Base lies at Z = 0.</text>
+<text x="184" y="163" text-anchor="start" style="font-size:3px">REF = derived/reference dimension.</text>
+<text x="184" y="169" text-anchor="start" style="font-size:3px">No tolerances specified in source.</text>
+</svg>
