@@ -5,6 +5,29 @@
 aliases; the DERIVED section calculates assembly positions. All clearances called
 "diametral" are differences of diameters, not radial gaps.
 
+## Hub and arm alignment (updated)
+
+The current model uses:
+
+```text
+Hub inside roof Z = ShaftTopZ
+HubTopZ           = ShaftTopZ + HubRoofThickness
+ArmBottomZ        = HubTopZ
+```
+
+The arm-interface bottom constraint uses `ArmBottomZ`; both arm-hole heights
+also follow that alias. `HubTopBelowUpperBearingTop` is retained only as an
+unused legacy input.
+
+With the current saved inputs, the shaft top and hub inside roof are at 90.8 mm,
+the hub top and arm bottom are at 94.8 mm, and the arm top is at 114.8 mm.
+The hole centers are at 98.8 and 108.8 mm. Alignment was checked after reopening
+and after a temporary +5 mm cavity-clearance change; all sketches remain fully
+constrained and all bodies valid. The clearance was restored to your 25 mm value.
+
+The sections below record the **initial migration** and its original defaults
+and interference findings, not the latest user-edited dimensions or fit status.
+
 ## Enlarge the space above the PCB
 
 Change **BearingToPcbClearance** from `12.2 mm` to, for example, `17.2 mm`.
